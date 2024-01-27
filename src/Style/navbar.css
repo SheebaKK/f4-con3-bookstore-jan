@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Rubik:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background: #292828;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow-x: scroll;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.keazon {
+  color: #fff;
+  font-family: Varela;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-book {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.navbar-search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  width: 600px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #373737;
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+  align-items: center;
+}
+
+.search-text {
+  color: #808080;
+
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background: #373737;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.search-button {
+  width: 148px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: #292828;
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.navbar-options {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar::-webkit-scrollbar {
+  display: none;
+}

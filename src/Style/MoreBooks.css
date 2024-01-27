@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.more-books {
+  background: #242121;
+  padding: 30px;
+  padding-top: 80px;
+}
+
+.text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 30px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.single-book {
+  width: 202.893px;
+  height: 299.216px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  box-shadow: 0px 7px 4px 0px rgba(110, 110, 110, 0.25);
+  cursor: pointer;
+}
+
+.single-book img {
+  width: 202.893px;
+  height: 299.216px;
+}
+
+.single-book:last-child {
+  margin-right: 0; /* Remove margin for the last book in each row */
+}
